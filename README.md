@@ -30,10 +30,17 @@
 
 | 分类 | 说明（对应内部资料目录） |
 |:--|:--|
-| `examples/` 根目录 | **ESP-IDF代码**（ST7305 SPI + LVGL8） |
+| `examples/` 根目录 | ST7305 SPI 驱动 bring-up（图案/刷新演示）与 LVGL8 示例 |
 
 ### 示例工程路径
 
 | 说明 | 路径 |
 |:--|:--|
+| ST7305 SPI 驱动 bring-up（条纹/棋盘/逐行刷新演示） | `examples/esp32s3-2.9-tft-168x384-spi-st7305-bringup/` |
 | ST7305 SPI + LVGL8 | `examples/esp32s3-idf5_st7305-spi_lvgl8/` |
+
+---
+
+## 演示
+
+![ST7305 SPI bring-up 演示](examples/esp32s3-2.9-tft-168x384-spi-st7305-bringup/assets/video_1.gif)
