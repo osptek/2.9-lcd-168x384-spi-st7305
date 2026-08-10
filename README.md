@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 2.9″ LCD 168×384（ST7305 · SPI）</h1>
 
-<p align="center"><b>全反射 LCD · SPI · ST7305 · 多料号索引</b></p>
+<p align="center"><b>全反射 LCD · SPI · ST7305 · 多版本索引</b></p>
 
 <p align="center"><a href="./README_EN.md">English</a> | 简体中文</p>
 
@@ -16,8 +16,10 @@
 ## 目录
 
 - [说明](#说明)
-- [已收录料号](#已收录料号)
-- [如何使用本仓库](#如何使用本仓库)
+- [版本一览](#版本一览)
+- [YDP290H001-V3](#ydp290h001-v3)
+- [YDP290H004-V3](#ydp290h004-v3)
+- [如何切换分支](#如何切换分支)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
@@ -25,41 +27,45 @@
 
 ## 说明
 
-本仓库收录 **2.9 寸 168×384 全反射 LCD（SPI · ST7305）** 相关模组资料。
+本仓库收录 **2.9 寸 168×384 全反射 LCD（SPI · ST7305）** 显示模组资料。
 
-**`main` 是导航页**（仓库默认分支）：不绑定某一料号的规格书 / 示例；完整产品资料请进入对应**料号分支**。
+**`main` 为导航页**（仓库默认分支）。下表可快速浏览各版本；点击「说明」跳转到本页下方的详细介绍。需要某一版本的完整内容时，请切换到对应**版本分支**（方法见下文）。
 
 规格标识（仓库名）：`2.9-lcd-168x384-spi-st7305`
 
 ---
 
-## 已收录料号
+## 版本一览
 
-| 型号 | 分支 | 说明 |
-| ---- | ---- | ---- |
-| YDP290H001-V3 | [`YDP290H001-V3`](https://github.com/osptek/2.9-lcd-168x384-spi-st7305/tree/YDP290H001-V3) | 模组 · 规格书 + 24pin 转接板等 |
-| YDP290H004-V3 | [`YDP290H004-V3`](https://github.com/osptek/2.9-lcd-168x384-spi-st7305/tree/YDP290H004-V3) | 模组 · 规格书 + 二合一转接板等 |
-
-> 请按你手上的规格书型号选择分支；不确定时联系商务 / 技术支持。
-
-Gitee 镜像：
-
-- [`YDP290H001-V3`](https://gitee.com/osptek/2.9-lcd-168x384-spi-st7305/tree/YDP290H001-V3)
-- [`YDP290H004-V3`](https://gitee.com/osptek/2.9-lcd-168x384-spi-st7305/tree/YDP290H004-V3)
+| 版本 | 宣传图 | 说明 |
+| ---- | ------ | ---- |
+| YDP290H001-V3 | <img alt="YDP290H001-V3" src="./images/YDP290H001-V3.png" width="120" /> | [查看详情](#ydp290h001-v3) |
+| YDP290H004-V3 | <img alt="YDP290H004-V3" src="./images/YDP290H004-V3.png" width="120" /> | [查看详情](#ydp290h004-v3) |
 
 ---
 
-## 如何使用本仓库
+## YDP290H001-V3
 
-**网页：** 打开上表对应分支，阅读该分支 README，下载 `docs/` 规格书与示例。
+<p align="center"><img alt="YDP290H001-V3" src="./images/YDP290H001-V3.png" width="320" /></p>
 
-**命令行：**
+**说明：** FPC 为 24 Pin，无触摸。
 
-```bash
-git clone https://github.com/osptek/2.9-lcd-168x384-spi-st7305.git
-cd 2.9-lcd-168x384-spi-st7305
-git checkout YDP290H001-V3   # 或 YDP290H004-V3
-```
+---
+
+## YDP290H004-V3
+
+<p align="center"><img alt="YDP290H004-V3" src="./images/YDP290H004-V3.png" width="320" /></p>
+
+**说明：** FPC 为 12 Pin，无触摸。
+
+---
+
+## 如何切换分支
+
+完整产品资料在各**版本分支**中；`main` 仅作导航。
+
+- **网页：** 在仓库页左上角打开分支下拉框，选择与料号对应的版本分支即可。
+- **命令行：** 克隆本仓库后执行 `git checkout <版本分支名>`；若本地已有仓库，先 `git fetch` 再切换。
 
 ---
 

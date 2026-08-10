@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 2.9″ LCD 168×384 (ST7305 · SPI)</h1>
 
-<p align="center"><b>Reflective LCD · SPI · ST7305 · Multi-SKU Index</b></p>
+<p align="center"><b>Reflective LCD · SPI · ST7305 · Multi-Version Index</b></p>
 
 <p align="center">English | <a href="./README.md">简体中文</a></p>
 
@@ -16,8 +16,10 @@
 ## Contents
 
 - [About](#about)
-- [Available SKUs](#available-skus)
-- [How to Use This Repo](#how-to-use-this-repo)
+- [Versions](#versions)
+- [YDP290H001-V3](#ydp290h001-v3)
+- [YDP290H004-V3](#ydp290h004-v3)
+- [How to Switch Branches](#how-to-switch-branches)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
@@ -27,39 +29,43 @@
 
 This repository holds materials for the **2.9″ 168×384 reflective LCD (SPI · ST7305)** module family.
 
-**`main` is the navigation page** (repository default branch). It is not tied to a single SKU’s datasheet or examples. For full product docs, open the matching **SKU branch**.
+**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
 
 Repo id: `2.9-lcd-168x384-spi-st7305`
 
 ---
 
-## Available SKUs
+## Versions
 
-| Model | Branch | Notes |
-| ----- | ------ | ----- |
-| YDP290H001-V3 | [`YDP290H001-V3`](https://github.com/osptek/2.9-lcd-168x384-spi-st7305/tree/YDP290H001-V3) | Module · datasheet + 24-pin adapter, etc. |
-| YDP290H004-V3 | [`YDP290H004-V3`](https://github.com/osptek/2.9-lcd-168x384-spi-st7305/tree/YDP290H004-V3) | Module · datasheet + combo adapter, etc. |
-
-> Pick the branch that matches the part number on your datasheet. If unsure, contact sales / support.
-
-Gitee mirrors:
-
-- [`YDP290H001-V3`](https://gitee.com/osptek/2.9-lcd-168x384-spi-st7305/tree/YDP290H001-V3)
-- [`YDP290H004-V3`](https://gitee.com/osptek/2.9-lcd-168x384-spi-st7305/tree/YDP290H004-V3)
+| Version | Image | Notes |
+| ------- | ----- | ----- |
+| YDP290H001-V3 | <img alt="YDP290H001-V3" src="./images/YDP290H001-V3.png" width="120" /> | [Details](#ydp290h001-v3) |
+| YDP290H004-V3 | <img alt="YDP290H004-V3" src="./images/YDP290H004-V3.png" width="120" /> | [Details](#ydp290h004-v3) |
 
 ---
 
-## How to Use This Repo
+## YDP290H001-V3
 
-**On the web:** open the SKU branch above, read that branch’s README, and download files from `docs/`.
+<p align="center"><img alt="YDP290H001-V3" src="./images/YDP290H001-V3.png" width="320" /></p>
 
-**CLI:**
+**Notes:** 24-pin FPC, no touch.
 
-```bash
-git clone https://github.com/osptek/2.9-lcd-168x384-spi-st7305.git
-cd 2.9-lcd-168x384-spi-st7305
-git checkout YDP290H001-V3   # or YDP290H004-V3
-```
+---
+
+## YDP290H004-V3
+
+<p align="center"><img alt="YDP290H004-V3" src="./images/YDP290H004-V3.png" width="320" /></p>
+
+**Notes:** 12-pin FPC, no touch.
+
+---
+
+## How to Switch Branches
+
+Full product materials are on each **version branch**; `main` is navigation only.
+
+- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
+- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
 
 ---
 
