@@ -31,8 +31,6 @@ This repository holds materials for the **2.9″ 168×384 reflective LCD (SPI ·
 
 Repo id: `2.9-lcd-168x384-spi-st7305`
 
-The full SKU list is in [`MODULE_VERSION.md`](./MODULE_VERSION.md).
-
 ---
 
 ## Available SKUs
@@ -42,7 +40,7 @@ The full SKU list is in [`MODULE_VERSION.md`](./MODULE_VERSION.md).
 | YDP290H001-V3 | [`YDP290H001-V3`](https://github.com/osptek/2.9-lcd-168x384-spi-st7305/tree/YDP290H001-V3) | Module · datasheet + 24-pin adapter, etc. |
 | YDP290H004-V3 | [`YDP290H004-V3`](https://github.com/osptek/2.9-lcd-168x384-spi-st7305/tree/YDP290H004-V3) | Module · datasheet + combo adapter, etc. |
 
-> Pick the branch that matches the part number on your datasheet. If unsure, check [`MODULE_VERSION.md`](./MODULE_VERSION.md) or contact sales / support.
+> Pick the branch that matches the part number on your datasheet. If unsure, contact sales / support.
 
 Gitee mirrors:
 

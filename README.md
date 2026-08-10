@@ -31,8 +31,6 @@
 
 规格标识（仓库名）：`2.9-lcd-168x384-spi-st7305`
 
-已收录料号清单见 [`MODULE_VERSION.md`](./MODULE_VERSION.md)。
-
 ---
 
 ## 已收录料号
@@ -42,7 +40,7 @@
 | YDP290H001-V3 | [`YDP290H001-V3`](https://github.com/osptek/2.9-lcd-168x384-spi-st7305/tree/YDP290H001-V3) | 模组 · 规格书 + 24pin 转接板等 |
 | YDP290H004-V3 | [`YDP290H004-V3`](https://github.com/osptek/2.9-lcd-168x384-spi-st7305/tree/YDP290H004-V3) | 模组 · 规格书 + 二合一转接板等 |
 
-> 请按你手上的规格书型号选择分支；不确定时对照 [`MODULE_VERSION.md`](./MODULE_VERSION.md) 或联系商务 / 技术支持。
+> 请按你手上的规格书型号选择分支；不确定时联系商务 / 技术支持。
 
 Gitee 镜像：
 
