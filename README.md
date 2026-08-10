@@ -48,15 +48,11 @@
 
 <p align="center"><img alt="YDP290H001-V3" src="./images/YDP290H001-V3.png" width="320" /></p>
 
-**说明：** FPC 为 24 Pin，无触摸。
-
 ---
 
 ## YDP290H004-V3
 
 <p align="center"><img alt="YDP290H004-V3" src="./images/YDP290H004-V3.png" width="320" /></p>
-
-**说明：** FPC 为 12 Pin，无触摸。
 
 ---
 

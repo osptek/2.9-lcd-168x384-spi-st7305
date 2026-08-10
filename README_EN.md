@@ -48,15 +48,11 @@ Repo id: `2.9-lcd-168x384-spi-st7305`
 
 <p align="center"><img alt="YDP290H001-V3" src="./images/YDP290H001-V3.png" width="320" /></p>
 
-**Notes:** 24-pin FPC, no touch.
-
 ---
 
 ## YDP290H004-V3
 
 <p align="center"><img alt="YDP290H004-V3" src="./images/YDP290H004-V3.png" width="320" /></p>
-
-**Notes:** 12-pin FPC, no touch.
 
 ---
 
