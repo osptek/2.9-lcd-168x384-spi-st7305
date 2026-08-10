@@ -1,8 +1,0 @@
-dependencies:
-  idf: ">=4.4"
-  lvgl/lvgl:
-    version: 8.4.*
-    public: true
-  kevincoooool/esp_lcd_st7305:
-    version: 0.0.2
-    public: true

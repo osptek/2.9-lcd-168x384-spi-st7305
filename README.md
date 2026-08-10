@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 2.9″ LCD 168×384（ST7305 · SPI）</h1>
 
-<p align="center"><b>全反射 LCD · SPI · ST7305</b></p>
+<p align="center"><b>全反射 LCD · SPI · ST7305 · 多料号索引</b></p>
 
 <p align="center"><a href="./README_EN.md">English</a> | 简体中文</p>
 
@@ -13,85 +13,64 @@
   <img alt="Driver: ST7305" src="https://img.shields.io/badge/Driver-ST7305-E7352C?style=flat-square" />
 </p>
 
-<p align="center"><img alt="OSPTEK 2.9 寸 168×384 全反射 LCD SPI 模组（ST7305）宣传图" src="./images/product.png" width="640" /></p>
-
 ## 目录
 
-- [产品简介](#产品简介)
-- [规格参数](#规格参数)
-- [示例工程](#示例工程)
-- [仓库结构](#仓库结构)
-- [相关资料](#相关资料)
+- [说明](#说明)
+- [已收录料号](#已收录料号)
+- [如何使用本仓库](#如何使用本仓库)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
 ---
 
-## 产品简介
+## 说明
 
-OSPTEK **2.9 寸 168×384 全反射 LCD** 是一款 **SPI** 接口黑白显示模组，显示驱动为 **ST7305**。适合低功耗仪表、标签与户外可读场景。
+本仓库收录 **2.9 寸 168×384 全反射 LCD（SPI · ST7305）** 相关模组资料。
+
+**`main` 是导航页**（仓库默认分支）：不绑定某一料号的规格书 / 示例；完整产品资料请进入对应**料号分支**。
 
 规格标识（仓库名）：`2.9-lcd-168x384-spi-st7305`
 
-当前模组版本：**YDP290H001-V3**。电气与外形细节以 [`docs/YDP_290_H001_V3_1dcc5ea9e3.pdf`](./docs/YDP_290_H001_V3_1dcc5ea9e3.pdf) 为准。
+已收录料号清单见 [`MODULE_VERSION.md`](./MODULE_VERSION.md)。
 
-## 规格参数
+---
 
-| 项目 | 规格 |
-| ---- | ---- |
-| 尺寸 | 2.9 英寸 |
-| 类型 | 全反射 LCD（黑白） |
-| 分辨率 | 168×384 |
-| 接口 | SPI |
-| 驱动 IC | ST7305 |
+## 已收录料号
 
-> 完整外形尺寸、FPC 定义、供电与时序以产品规格书 / 驱动手册为准。
+| 型号 | 分支 | 说明 |
+| ---- | ---- | ---- |
+| YDP290H001-V3 | [`YDP290H001-V3`](https://github.com/osptek/2.9-lcd-168x384-spi-st7305/tree/YDP290H001-V3) | 模组 · 规格书 + 24pin 转接板等 |
+| YDP290H004-V3 | [`YDP290H004-V3`](https://github.com/osptek/2.9-lcd-168x384-spi-st7305/tree/YDP290H004-V3) | 模组 · 规格书 + 二合一转接板等 |
 
-## 示例工程
+> 请按你手上的规格书型号选择分支；不确定时对照 [`MODULE_VERSION.md`](./MODULE_VERSION.md) 或联系商务 / 技术支持。
 
-| 说明 | 路径 |
-| ---- | ---- |
-| ESP32-S3 · ST7305 SPI bring-up（条纹 / 棋盘 / 逐行刷新） | [`examples/esp32s3-2.9-tft-168x384-spi-st7305-bringup/`](./examples/esp32s3-2.9-tft-168x384-spi-st7305-bringup/) |
-| ESP32-S3 · ST7305 SPI + LVGL8 | [`examples/esp32s3-idf5_st7305-spi_lvgl8/`](./examples/esp32s3-idf5_st7305-spi_lvgl8/) |
+Gitee 镜像：
 
-bring-up 演示动图见 [`assets/video_1.gif`](./assets/video_1.gif)。
+- [`YDP290H001-V3`](https://gitee.com/osptek/2.9-lcd-168x384-spi-st7305/tree/YDP290H001-V3)
+- [`YDP290H004-V3`](https://gitee.com/osptek/2.9-lcd-168x384-spi-st7305/tree/YDP290H004-V3)
 
-## 仓库结构
+---
 
-```text
-2.9-lcd-168x384-spi-st7305/
-├── README.md
-├── README_EN.md
-├── MODULE_VERSION.md
-├── LICENSE
-├── images/          # README 用图
-├── assets/          # 演示动图等
-├── docs/            # 规格书、驱动手册、转接板等
-└── examples/        # 示例工程
+## 如何使用本仓库
+
+**网页：** 打开上表对应分支，阅读该分支 README，下载 `docs/` 规格书与示例。
+
+**命令行：**
+
+```bash
+git clone https://github.com/osptek/2.9-lcd-168x384-spi-st7305.git
+cd 2.9-lcd-168x384-spi-st7305
+git checkout YDP290H001-V3   # 或 YDP290H004-V3
 ```
 
-## 相关资料
-
-### 本产品资料
-
-| 资料 | 链接 |
-| ---- | ---- |
-| 产品规格书（YDP290H001-V3） | [`docs/YDP_290_H001_V3_1dcc5ea9e3.pdf`](./docs/YDP_290_H001_V3_1dcc5ea9e3.pdf) |
-| 驱动 IC 数据手册（ST7305） | [`docs/ST_7305_V0_2_d0b99d9cdb.pdf`](./docs/ST_7305_V0_2_d0b99d9cdb.pdf) |
-| 2.9 寸全反转接板原理图（DEMO） | [`docs/SCH_2.9寸全反转接板_DEMO.pdf`](./docs/SCH_2.9%E5%AF%B8%E5%85%A8%E5%8F%8D%E8%BD%AC%E6%8E%A5%E6%9D%BF_DEMO.pdf) |
-| 2.9 寸全反转接板（24pin） | [`docs/2.9寸全反转接板-24pin.pdf`](./docs/2.9%E5%AF%B8%E5%85%A8%E5%8F%8D%E8%BD%AC%E6%8E%A5%E6%9D%BF-24pin.pdf) |
-
-### 示例工程
-
-- [ESP32-S3 ST7305 SPI bring-up](./examples/esp32s3-2.9-tft-168x384-spi-st7305-bringup/)
-- [ESP32-S3 ST7305 SPI + LVGL8](./examples/esp32s3-idf5_st7305-spi_lvgl8/)
+---
 
 ## 购买链接
 
 <p align="center">
   <a href="https://shop110742373.taobao.com/"><img alt="淘宝官方店铺" src="https://img.shields.io/badge/淘宝-官方店铺-FF6A00?style=for-the-badge" /></a>
   &nbsp;&nbsp;
-  <a href="https://www.aliexpress.com/store/1105701619"><img alt="速卖通官方店铺" src="https://img.shields.io/badge/速卖通-官方店铺-FF6A00?style=for-the-badge" /></a>
+  <a href="https://www.aliexpress.com/store/1105701619"><img alt="速卖通官方店铺" src="https://img.shields.io/badge/速卖通-官方店铺-E62E04?style=for-the-badge&logo=aliexpress&logoColor=white" /></a>
 </p>
 
 **国内（淘宝）**
@@ -101,6 +80,8 @@ bring-up 演示动图见 [`assets/video_1.gif`](./assets/video_1.gif)。
 **海外（AliExpress）**
 
 - 店铺：[OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
+
+---
 
 ## 技术支持
 
