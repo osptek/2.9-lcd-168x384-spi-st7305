@@ -1,0 +1,23 @@
+# 忽略构建目录
+/build/
+/managed_components/
+/resource/
+CMakeCache.txt
+*.cmake
+*.elf
+*.bin
+*.map
+*.a
+*.o
+*.obj
+*.log
+
+# 如果你不想提交临时配置文件
+*.pyc
+*.env
+
+# IDE 或编辑器生成的文件（可选）
+.vscode/
+.projectile
+.idea/
+/spiffs/

@@ -19,7 +19,6 @@
 - [版本一览](#版本一览)
 - [YDP290H001-V3](#ydp290h001-v3)
 - [YDP290H004-V3](#ydp290h004-v3)
-- [如何切换分支](#如何切换分支)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
@@ -29,7 +28,7 @@
 
 本仓库收录 **2.9 寸 168×384 全反射 LCD（SPI · ST7305）** 显示模组资料。
 
-**`main` 为导航页**（仓库默认分支）。下表可快速浏览各版本；点击「说明」跳转到本页下方的详细介绍。需要某一版本的完整内容时，请切换到对应**版本分支**（方法见下文）。
+**根目录 README 为导航页**。下表可快速浏览各版本；点击「完整资料」进入 `versions/` 下对应**料号文件夹**（产品页、规格书、示例均在该目录内）。
 
 规格标识（仓库名）：`2.9-lcd-168x384-spi-st7305`
 
@@ -37,31 +36,26 @@
 
 ## 版本一览
 
-| 版本 | 宣传图 | 说明 |
-| ---- | ------ | ---- |
-| YDP290H001-V3 | <img alt="YDP290H001-V3" src="./images/YDP290H001-V3.png" width="120" /> | [查看详情](#ydp290h001-v3) |
-| YDP290H004-V3 | <img alt="YDP290H004-V3" src="./images/YDP290H004-V3.png" width="120" /> | [查看详情](#ydp290h004-v3) |
+| 版本 | 宣传图 | 简介 | 完整资料 |
+| ---- | ------ | ---- | -------- |
+| YDP290H001-V3 | <img alt="YDP290H001-V3" src="./versions/YDP290H001-V3/images/product.png" width="120" /> | [简介](#ydp290h001-v3) | [完整资料](./versions/YDP290H001-V3/) |
+| YDP290H004-V3 | <img alt="YDP290H004-V3" src="./versions/YDP290H004-V3/images/product.png" width="120" /> | [简介](#ydp290h004-v3) | [完整资料](./versions/YDP290H004-V3/) |
 
 ---
 
 ## YDP290H001-V3
 
-<p align="center"><img alt="YDP290H001-V3" src="./images/YDP290H001-V3.png" width="320" /></p>
+<p align="center"><img alt="YDP290H001-V3" src="./versions/YDP290H001-V3/images/product.png" width="320" /></p>
+
+完整产品页、规格书与示例：[versions/YDP290H001-V3/](./versions/YDP290H001-V3/)
 
 ---
 
 ## YDP290H004-V3
 
-<p align="center"><img alt="YDP290H004-V3" src="./images/YDP290H004-V3.png" width="320" /></p>
+<p align="center"><img alt="YDP290H004-V3" src="./versions/YDP290H004-V3/images/product.png" width="320" /></p>
 
----
-
-## 如何切换分支
-
-完整产品资料在各**版本分支**中；`main` 仅作导航。
-
-- **网页：** 在仓库页左上角打开分支下拉框，选择与料号对应的版本分支即可。
-- **命令行：** 克隆本仓库后执行 `git checkout <版本分支名>`；若本地已有仓库，先 `git fetch` 再切换。
+完整产品页、规格书与示例：[versions/YDP290H004-V3/](./versions/YDP290H004-V3/)
 
 ---
 

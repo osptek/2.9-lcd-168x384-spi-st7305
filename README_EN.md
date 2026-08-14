@@ -19,7 +19,6 @@
 - [Versions](#versions)
 - [YDP290H001-V3](#ydp290h001-v3)
 - [YDP290H004-V3](#ydp290h004-v3)
-- [How to Switch Branches](#how-to-switch-branches)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
@@ -29,7 +28,7 @@
 
 This repository holds materials for the **2.9″ 168×384 reflective LCD (SPI · ST7305)** module family.
 
-**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
+The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
 Repo id: `2.9-lcd-168x384-spi-st7305`
 
@@ -37,31 +36,26 @@ Repo id: `2.9-lcd-168x384-spi-st7305`
 
 ## Versions
 
-| Version | Image | Notes |
-| ------- | ----- | ----- |
-| YDP290H001-V3 | <img alt="YDP290H001-V3" src="./images/YDP290H001-V3.png" width="120" /> | [Details](#ydp290h001-v3) |
-| YDP290H004-V3 | <img alt="YDP290H004-V3" src="./images/YDP290H004-V3.png" width="120" /> | [Details](#ydp290h004-v3) |
+| Version | Image | Summary | Full docs |
+| ------- | ----- | ------- | --------- |
+| YDP290H001-V3 | <img alt="YDP290H001-V3" src="./versions/YDP290H001-V3/images/product.png" width="120" /> | [Summary](#ydp290h001-v3) | [Full docs](./versions/YDP290H001-V3/) |
+| YDP290H004-V3 | <img alt="YDP290H004-V3" src="./versions/YDP290H004-V3/images/product.png" width="120" /> | [Summary](#ydp290h004-v3) | [Full docs](./versions/YDP290H004-V3/) |
 
 ---
 
 ## YDP290H001-V3
 
-<p align="center"><img alt="YDP290H001-V3" src="./images/YDP290H001-V3.png" width="320" /></p>
+<p align="center"><img alt="YDP290H001-V3" src="./versions/YDP290H001-V3/images/product.png" width="320" /></p>
+
+Full product page, datasheets, and examples: [versions/YDP290H001-V3/](./versions/YDP290H001-V3/)
 
 ---
 
 ## YDP290H004-V3
 
-<p align="center"><img alt="YDP290H004-V3" src="./images/YDP290H004-V3.png" width="320" /></p>
+<p align="center"><img alt="YDP290H004-V3" src="./versions/YDP290H004-V3/images/product.png" width="320" /></p>
 
----
-
-## How to Switch Branches
-
-Full product materials are on each **version branch**; `main` is navigation only.
-
-- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
-- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
+Full product page, datasheets, and examples: [versions/YDP290H004-V3/](./versions/YDP290H004-V3/)
 
 ---
 
